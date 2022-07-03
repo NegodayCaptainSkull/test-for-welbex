@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  height: 25px;
+}
+
+.column {
+  width: 125px;
+  border: 1px solid black;
+}
+ 
+.column:not(:last-child) {
+  border-right: 0px ;
+}
