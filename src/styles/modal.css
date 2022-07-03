@@ -1,0 +1,55 @@
+.modal {
+  position: fixed;
+  top: 25%;
+  width: 450px;
+  padding:  20px 30px;
+  background: rgb(19, 18, 18);
+  z-index: 1000;
+  left: 50%;
+  border-radius: 10px;
+  transform: translateX(-50%);
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  font-family: Caveat, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .35);
+  z-index: 100;
+}
+
+.modal-title {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-form {
+  position: relative;
+  display: block;
+}
+
+.form-chose{
+  margin-bottom: 10px;
+}
+
+.form-chose, .form-input {
+  display: block;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-btn {
+  color: #fff;
+  display: flex;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
